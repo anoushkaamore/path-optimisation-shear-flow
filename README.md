@@ -41,7 +41,7 @@ dx/dt = s·cos(θ)
 dy/dt = s·sin(θ) + V + k·y  
 dθ/dt = −(k/2)·sin(2θ)
 
-This is a **boundary value problem**: we know the start (0,0) and end (X,0)
+This is a boundary value problem: we know the start (0,0) and end (X,0)
 but not the initial heading angle θ(0). The **shooting method** is used:
 
 1. Guess an initial heading angle θ₀
