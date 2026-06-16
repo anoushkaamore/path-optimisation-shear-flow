@@ -60,12 +60,12 @@ shear rate k, and swimmer speed s in real time.
 
 **Uniform flow:** optimal vs naive path  
 
-![Demo](demo.gif)
+![Demo1](demo.gif)
 
 **Shear flow:** Euler-Lagrange shooting solution vs uniform-flow comparison,
 with heading angle profile and travel time plotted against shear rate.
 
-![Demo](demoshear.gif)
+![Demo2](demoshear.gif)
 
 ## How to Run
 
