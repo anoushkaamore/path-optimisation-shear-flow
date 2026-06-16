@@ -89,3 +89,30 @@ Jupyter session.
 - Calculus of variations / Euler-Lagrange equations
 - Boundary value problems vs initial value problems
 - Shooting method for BVP solving
+
+ ### Vortex Flow Extension: Numerical Solution via Shooting Method
+
+In vortex (rotational) flow, the velocity field rotates about the origin:
+
+$$v_x = -\omega y, \quad v_y = \omega x$$
+
+where $\omega$ is the vortex strength. The flow speed increases with distance
+from the centre, making the path optimisation more complex.
+
+The Euler-Lagrange equations give the ODE system:
+
+$$\dot{x} = s\cos\theta - \omega y$$
+$$\dot{y} = s\sin\theta + \omega x$$
+$$\dot{\theta} = \omega$$
+
+The result is that the optimal heading angle rotates at exactly the vortex
+rate $\omega$, which is a clean analytical consequence of the E-L equations, even
+though the path itself must be solved numerically.
+
+As with shear flow, this is a boundary value problem solved using the
+**shooting method** with `scipy.optimize.brentq` for root-finding.
+
+The resulting path curves dramatically, and the fish must initially swim
+against the flow before being carried around to the target.
+
+![Vortex flow demo](demovortex.gif)
