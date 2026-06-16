@@ -1,4 +1,4 @@
-# path-optimisation-shear-flow
+# path-optimisation-shear-flow-with-vortex-flow-extension
 Undergraduate dissertation project (MT4599, University of St Andrews).
 
 An interactive simulation of the classic navigation/path optimisation problem:
