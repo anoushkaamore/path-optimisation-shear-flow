@@ -59,8 +59,13 @@ Both simulations are interactive — sliders adjust current speed V,
 shear rate k, and swimmer speed s in real time.
 
 **Uniform flow:** optimal vs naive path  
+
+![Demo](demo.gif)
+
 **Shear flow:** Euler-Lagrange shooting solution vs uniform-flow comparison,
 with heading angle profile and travel time plotted against shear rate.
+
+![Demo](demoshear.gif)
 
 ## How to Run
 
