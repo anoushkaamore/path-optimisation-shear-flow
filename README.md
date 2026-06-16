@@ -79,6 +79,7 @@ pip install numpy matplotlib scipy
 
 **Run:**
 jupyter notebook MT4599_presentation_demo_CODE.ipynb
+
 Note: the uniform flow demo uses `%matplotlib qt` for the interactive
 slider — this requires a desktop Python environment, not a browser-only
 Jupyter session.
